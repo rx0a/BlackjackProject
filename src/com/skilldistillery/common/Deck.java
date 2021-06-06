@@ -32,7 +32,7 @@ public class Deck {
 	public Card dealCard() {
 		return cards.remove(0);
 	}
-	
+
 	public void displayDeck() {
 		if (cards.size() == 0) {
 			System.out.println("No cards.");

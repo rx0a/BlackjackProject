@@ -6,7 +6,6 @@ import java.util.List;
 public class Hand {
 	private List<Card> cards = new ArrayList<>();
 	private String name;
-	
 
 	public Hand(String name) {
 		this.name = name;
@@ -23,21 +22,23 @@ public class Hand {
 		}
 		return value;
 	}
+
 	public int getDealersHandValue() {
 		int value = 0;
 		for (int i = 1; i < cards.size(); i++) {
 			Card card = cards.get(i);
-			value += card.getValue();		}
+			value += card.getValue();
+		}
 		return value;
 	}
-	
+
 	public void displayDealersHand() {
-			for (int i = 1; i < cards.size(); i++) {
-				Card card = cards.get(i);
-				System.out.println(card);
-			}
+		for (int i = 1; i < cards.size(); i++) {
+			Card card = cards.get(i);
+			System.out.println(card);
 		}
-	
+	}
+
 	public void fold() {
 		cards.clear();
 	}
@@ -54,6 +55,7 @@ public class Hand {
 			}
 		}
 	}
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
