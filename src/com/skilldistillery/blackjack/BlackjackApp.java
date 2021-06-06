@@ -84,8 +84,9 @@ public class BlackjackApp {
 
 		if (gameOver == false) {
 			for (Hand hand : players) {
-				if ((player.getHandValue() == 21) && (turn == 0)) {
-					System.out.println("  Blackjack! You win!");
+				
+				if ((hand.getHandValue() == 21) && (turn == 0)) {
+					System.out.println("  Blackjack! " + hand + " wins!");
 					gameOver(players, deck, kb);
 
 				} else if (player.getHandValue() == (dealer.getHandValue()) && (turn > 0)
