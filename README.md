@@ -18,4 +18,5 @@ Run the program and interact with the menu options to access all functions of th
 Creating the game logic from scratch has enabled me to organize my thoughts into code. Another key learning point was using Enums and creating classes that are not coupled with the app. This kind of logic can indeed be useful in many other applications.
 
 ### UML Diagram
-![JetsUML](https://user-images.githubusercontent.com/83374176/120117467-8f3fdd00-c14a-11eb-8649-e9784f19992c.png)
+![BlackjackUML](https://user-images.githubusercontent.com/83374176/120940492-caa65280-c6da-11eb-8e6d-1e64bdb35ec0.png)
+
