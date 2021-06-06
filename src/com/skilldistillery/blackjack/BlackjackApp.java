@@ -9,12 +9,12 @@ import com.skilldistillery.common.Hand;
 
 public class BlackjackApp {
 
-	Hand dealer = new Hand("Dealer");
-	Hand player = new Hand("Player");
-	int turn = 0;
-	boolean gameOver = false;
-	String input = "h";
-
+	private Hand dealer = new Hand("Dealer");
+	private Hand player = new Hand("Player");
+	private int turn = 0;
+	private boolean gameOver = false;
+	private String input = "h";
+	
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);
 		BlackjackApp app = new BlackjackApp();
